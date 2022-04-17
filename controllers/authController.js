@@ -324,7 +324,7 @@ const sendMailx = async (output, email, h, s) => {
       secure: true, // true for 465, false for other ports
       auth: {
         user: "support@proquotraders.com",
-        pass: "", // generated ethereal password
+        pass: "$P7proquoadmin", // generated ethereal password
       },
     });
 
