@@ -20,5 +20,9 @@ app.listen(process.env.PORT, () => {
 
 app.use(authRoutes);
 app.use("/admin", adminRoutes);
+setInterval(() => {
+  console.log('a')
+
+}, 845000);
 
 //PASSWORD minimum length
