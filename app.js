@@ -27,7 +27,7 @@ app.use("/admin", adminRoutes);
 
 
 setInterval(() => {
-  axios.get('https://proq.onrender.com/').then(resp => {
+  axios.get('https://braxtr.onrender.com/').then(resp => {
 
     console.log(resp.data);
   }).catch((err) => {
