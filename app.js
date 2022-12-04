@@ -25,14 +25,4 @@ app.listen(process.env.PORT, () => {
 app.use(authRoutes);
 app.use("/admin", adminRoutes);
 
-
-setInterval(() => {
-  axios.get('https://braxtr.onrender.com/').then(resp => {
-
-    console.log(resp.data);
-  }).catch((err) => {
-    console.log({ err })
-  });
-}, 780000);
-
 //PASSWORD minimum length
